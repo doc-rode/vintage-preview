@@ -50,6 +50,15 @@ Home copy is the approved vintage-park redesign copy. All six subpages
 the corresponding production pages — verified string-for-string against
 `rocksteady-fitness-website/pages/*.html`. No wording was changed, added, or removed.
 
+## Preview / launch
+
+Deployed for preview via GitHub Pages at **https://doc-rode.github.io/rocksteady-vintage/**
+(public repo `doc-rode/rocksteady-vintage`). `.nojekyll` serves the files as-is.
+
+> **Before launch:** every page carries `<meta name="robots" content="noindex, nofollow">`
+> (marked `PREVIEW ONLY: remove at launch`) so search engines don't index the preview.
+> **Remove these tags when the site goes to production** so the real site can be indexed.
+
 ## Known follow-ups (not copy changes)
 
 - **`user-guide.html`** is a **generated** page in production (built from `docs/User-Guide.md`
