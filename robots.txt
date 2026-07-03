@@ -1,3 +1,0 @@
-# Private preview shared for review only — please do not crawl or index.
-User-agent: *
-Disallow: /
