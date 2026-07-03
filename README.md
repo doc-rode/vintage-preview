@@ -33,6 +33,23 @@ rocksteady-vintage/
 - **Footer — Legal:** Privacy Policy · Terms of Service · Contact
 
 Terms of Service lives in the footer only (no top-nav link), same as production.
+Mobile (≤900px) uses a CSS-only hamburger menu (no JS); the "Get the app" pill moves inside it.
+
+## Home page (section order)
+
+1. **Hero** — "Push your rock. Stay steady." + App Store badge
+2. **Stamp strip** — Strength · Cardio · Recovery · Sport · On-device
+3. **Privacy — "Leave no trace."** — promoted no-data-collection statement (0 trackers · 100% on
+   your device), placed high, before features/screenshots
+4. **Photo band** — climbing (Fig. 01)
+5. **Discipline emblems** — the four sloth mascots, as a visual intro to the disciplines
+6. **Field Guide** — detailed discipline entries with app screenshots
+7. **Apple Watch** → **Feature cards** (Sports / Calendar / Social)
+8. **Photo band** — lakefront (Fig. 02) → **Philosophy** quote → **CTA** → footer
+
+Home-only additions beyond the raw vintage-park preview: the promoted privacy band, two
+full-bleed photo bands (real photography), the emblems repositioned as the disciplines intro
+(overview → detail), and the responsive hamburger nav.
 
 ## Design system
 
