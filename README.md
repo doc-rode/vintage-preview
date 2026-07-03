@@ -9,7 +9,7 @@ reproduced **verbatim** from the current production pages.
 ## Structure
 
 ```
-rocksteady-vintage/
+vintage-preview/
 ├── index.html            # Home (un-bundled from the vintage-park preview)
 ├── pages/
 │   ├── about.html
@@ -69,8 +69,8 @@ the corresponding production pages — verified string-for-string against
 
 ## Preview / launch
 
-Deployed for preview via GitHub Pages at **https://doc-rode.github.io/rocksteady-vintage/**
-(public repo `doc-rode/rocksteady-vintage`). `.nojekyll` serves the files as-is.
+Deployed for preview via GitHub Pages at **https://doc-rode.github.io/vintage-preview/**
+(public repo `doc-rode/vintage-preview`). `.nojekyll` serves the files as-is.
 
 > **Before launch:** every page carries `<meta name="robots" content="noindex, nofollow">`
 > (marked `PREVIEW ONLY: remove at launch`) so search engines don't index the preview.
