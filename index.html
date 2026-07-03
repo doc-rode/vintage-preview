@@ -19,8 +19,11 @@
     .vp-watch{grid-template-columns:1fr !important;gap:40px !important;text-align:center;}
     .vp-watch .vp-checks{align-items:center;}
     .vp-mini{grid-template-columns:1fr !important;}
+    /* let the 3-watch cluster shrink to fit instead of forcing a fixed 518px width */
+    .vp-watchcluster{gap:8px !important;max-width:100%;}
+    .vp-watchcluster > div{flex:1 1 0 !important;width:auto !important;min-width:0 !important;max-width:34% !important;}
   }
-  @media(max-width:560px){ .vp-h1{font-size:clamp(42px,13vw,58px) !important;} .vp-watchcluster{transform:scale(.84);} }
+  @media(max-width:560px){ .vp-h1{font-size:clamp(30px,9vw,54px) !important;} }
   @media(max-width:460px){
     .trace-stats{grid-template-columns:1fr !important;gap:0 !important;}
     .trace-stats > div:nth-child(2){border-left:none !important;border-top:2px dashed var(--hairline,#C2B591);margin-top:22px;padding-top:22px;}
